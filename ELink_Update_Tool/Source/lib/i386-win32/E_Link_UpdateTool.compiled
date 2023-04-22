@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1420791944"/>
-  <Params Value=" -Twin32 -Pi386 -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq -FiF:\Projects\Lazarus\ELink_Update_Tool\lib\i386-win32 -FuF:\Projects\Lazarus\ELink_Updater_Free\lib -FuF:\Projects\Lazarus\ELink_Updater_Common -FuF:\Projects\Lazarus\ELink_Updater_Common\lib -FuF:\Projects\Lazarus\ELink_Update_Tool\lib -FuC:\Users\lothar\AppData\Local\lazarus\onlinepackagemanager\packages\richmemo\lib\i386-win32 -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\freetype\lib\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 -FuF:\Projects\Lazarus\ELink_Update_Tool\ -FUF:\Projects\Lazarus\ELink_Update_Tool\lib\i386-win32\ -FEF:\Projects\Lazarus\ELink_Update_Tool\ -oF:\Projects\Lazarus\ELink_Update_Tool\E_Link_UpdateTool.exe -dLCL -dLCLwin32 E_Link_UpdateTool.lpr"/>
-</CONFIG>
