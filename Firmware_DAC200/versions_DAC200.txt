@@ -1,0 +1,166 @@
+===================================================================================================
+T+A DAC 200 
+===================================================================================================
+
+
+===================================================================================================
+Currently available versions:
+===================================================================================================
+(08.03.23)
+        stable                                  beta
+Main:   V1.18                             Main: V1.18  
+BL:                                       BL:                  
+===================================================================================================
+- refresh sample rate indication on display if new source with "NO_DATA" selected
+- balance change from APP stored in EEPROM
+- improved synchronization of INV, OUTPUT and FILTER settings with APP
+- option to power up the DAC 200 via source button in the app added
+
+
+===================================================================================================
+History
+===================================================================================================
+------------------------
+------------------------
+
+(27-10-22)
+Main:   V1.16
+BL:     
+-----
+- Unintended switch-off in HDMI CEC mode (with some SONY TVs) fixed
+
+
+------------------------
+------------------------
+
+
+(18-07-22)
+Main:   V1.14
+BL:     
+-----
+- outputs muted before firmware update (avoids speaker popp after re-start)
+- VU-Meter improvements
+- switching from BNC to AES-EBU input fixed (without HDMI module installed)
+
+
+------------------------
+------------------------
+
+
+(xx-xx-22)
+Main:   V1.13
+BL:     
+-----
+- not available
+
+
+------------------------
+------------------------
+
+(30-06-22)
+Main:   V1.12
+BL:     
+-----
+- improved MUTING behaviour (reduced relay clicking)
+
+
+------------------------
+------------------------
+
+(14-04-22)
+Main:   V1.11
+BL:     
+-----
+- Bugfix: tone control menu is closed correctly on timeout
+
+
+------------------------
+------------------------
+
+(25-03-22)
+Main:   V1.10
+BL:     
+-----
+- IR remote control reception can be disabled (to prevent unintended operation of the DAC200 when used with a PA/P).
+- prevent PRE-Out LINE mode when Power AMP (A_200) is connected
+
+------------------------
+------------------------
+
+(15-12-21)
+Main:   V1.05
+BL:     
+-----
+-  missing pixels in "ANALOG IN" source display fixed
+
+------------------------
+------------------------
+
+(02-12-21)
+Main:   V1.04
+BL:     
+-----
+- added AUTO-MUTE flag when in protection state (enables APP to decide between User-Mute and Protection-Mute)
+- all HDMI inputs enabled after reset to factory defaults 
+
+------------------------
+------------------------
+
+(05-11-21)
+Main:   V1.03
+BL:     
+-----
+- Muting state changed to OFF in factory default settings
+- improved speaker-state display in APP
+- fixed unintentional volume changes when switching HDMI inputs with CEC enabled
+
+------------------------
+------------------------
+
+(23-10-21)
+Main:   V1.02
+BL:     
+-----
+- SPEAKER state stored in EEPROM and restored after power-ON
+- INVERT state stored in EEPROM and restored after power-ON
+- fixed unintentional changing of A200 speaker state when closing setup menu
+- prevent opening TONE & SETUP Menues during init phase
+- fix wrong source LED display during init phase
+- fix sporadic unintentional resets during switch-on
+
+------------------------
+------------------------
+
+(20-10-21)
+Main:   V1.01
+BL:     
+-----
+- TX LED brightness changes to A200 only (not to MP200 any more)
+- LED brightness table adjusted to MP200 brightness levels
+- Synchronize display mode (Always/Temporary) with A200
+- changing of speaker state via E-Link in STANDBY enabled (for ROON compatibility)
+- fixed report of enabled sources to APP
+
+------------------------
+------------------------
+
+(29-09-21)
+Main:   V1.00 
+BL:     
+-----
+- initial version
+
+
+===================================================================================================
+Note:
+--------------
+User manuals for the current firmware are available on http://www.ta-hifi.com
+
+===================================================================================================
+T+A elektroakustik GmbH & CoKG
+Planckstrasse 9-11
+32052 Herford
+Germany
+
+http://www.ta-hifi.de
+
