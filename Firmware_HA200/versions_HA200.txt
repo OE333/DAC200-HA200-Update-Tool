@@ -1,0 +1,221 @@
+===================================================================================================
+T+A HA 200 
+===================================================================================================
+
+
+===================================================================================================
+Currently available versions:
+===================================================================================================
+(08.03.23)
+        stable                                   beta
+Main:   V2.35                             Main:  V2.35    
+BL:                                       BL:                  
+===================================================================================================
+- refresh sample rate indication on display if new source with "NO_DATA" selected
+- balance change from APP stored in EEPROM
+- improved synchronization of INV, OUTPUT and FILTER settings with APP
+- option to power up the DAC 200 via source button in the app added
+
+
+===================================================================================================
+History
+===================================================================================================
+------------------------
+------------------------
+
+(27-10-22)
+Main:   V2.33
+BL:     
+-----
+- Unintended switch-off in HDMI CEC mode (with some SONY TVs) fixed
+
+
+------------------------
+------------------------
+
+(02-09-22)
+Main:   V2.32
+BL:     
+-----
+- Enable/Disable IR Remote Control by user control (in SETUP MENU)
+- outputs muted before firmware update (avoids speaker popp after re-start)
+- improved MUTING behaviour (reduced relay clicking)
+- VU-Meter improvements
+- switching from BNC to AES-EBU input fixed (without HDMI module installed)
+
+
+------------------------
+------------------------
+
+(02-12-21)
+Main:   V2.20
+BL:     
+-----
+- New E-Link commands TONE, LOUD, FLAT
+- Added support for extended E-Link commands (0xA8)
+- Set Protection + AUTO-Protection flags to APP if in "No Signal" mute
+- Automatically enable all HDMI inputs after installing HDMI module
+
+------------------------
+------------------------
+
+(08-11-21)
+Main:   V2.11
+BL:     
+-----
+- some Bugfixes for HSBT075 BT module
+- improved HDMI volume control
+
+------------------------
+------------------------
+
+(28-09-21)
+Main:   V2.10
+BL:     
+-----
+- ROON interoperability (with MP200)
+- improved CEC volume control
+- X-FEED support for APP control added
+- added control of A200 amplifier
+
+------------------------
+------------------------
+
+(11-08-21)
+Main:   V2.0A
+BL:     
+-----
+- improved BOOTLOADER 
+- multi language support (English/German/French/Italian/Spanish)
+- "MUTING" message displayed on screen when muted
+- faster start-up for better interoperability with MP200
+
+------------------------
+------------------------
+
+(10-06-21)
+Main:   V2.08
+BL:     
+-----
+- Remote control "Switch-OFF" bug fixed
+
+
+------------------------
+------------------------
+
+(18-02-21)
+Main:   V2.04
+BL:     
+-----
+- E-Link test & diagnosis functions added
+- faster HDMI switching time to ARC mode
+- S/P-DIF: improved locking on 174.4 kHz streams when coming from 192kHz
+
+------------------------
+------------------------
+
+05-02-21)
+Main:   V2.01
+BL:     
+-----
+- added menu item "Clear Bluetooth pairing list"
+- HDMI compatibility improvements with some SONY TV (KDL32xx)
+- improved Bluetooth interoperability with iOS devices
+- unification version DAC200/HA200
+- shortened switch-on time
+
+------------------------
+------------------------
+
+(30-11-20)
+Main:   V2.00
+BL:     
+-----
+- support for new hardware (HSBT075, IS31FLxx)
+
+------------------------
+------------------------
+
+(17-07-20)
+Main:   V1.12
+BL:     
+-----
+- fixed HDMI bug "no sound when switching from HDMI1/2 to ÃRC while DSD stream is playing"
+
+
+------------------------
+------------------------
+(17-06-20)
+Main:   V1.11
+BL:     
+-----
+- added error message "Format Error" when multichannel stream is played via HDMI
+- improved HDMI CEC volume control
+
+------------------------
+------------------------
+(15-06-20)
+Main:   V1.10
+BL:     
+-----
+- added HDMI CEC support
+
+------------------------
+------------------------
+
+(27-05-20)
+Main:   V1.07
+BL:     
+-----
+- improved switching between DSD512 <-> DSD1024
+
+------------------------
+------------------------
+
+(16-04-20)
+Main:   V1.05
+BL:     
+-----
+- fixed DoP256x48 bug
+ 
+------------------------
+------------------------
+
+(08-04-20)
+Main:   V1.04
+BL:     
+-----
+- improved NOS2 step response
+ 
+------------------------
+------------------------
+
+(06-04-20)
+Main:   V1.02
+BL:     
+-----
+- fixed "No sound after switch ON with source=USB" bug
+ 
+------------------------
+------------------------
+
+(01-04-20)
+Main:   V1.00 
+BL:     
+-----
+- initial version
+
+
+===================================================================================================
+Note:
+--------------
+User manuals for the current firmware are available on http://www.ta-hifi.com
+
+===================================================================================================
+T+A elektroakustik GmbH & CoKG
+Planckstrasse 9-11
+32052 Herford
+Germany
+
+http://www.ta-hifi.de
+
