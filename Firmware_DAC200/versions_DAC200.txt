@@ -6,54 +6,15 @@ T+A DAC 200
 ===================================================================================================
 Currently available versions:
 ===================================================================================================
-(08.03.23)
-        stable                                  beta
-Main:   V1.18                             Main: V1.18  
+(30.06.22)
+        stable                            beta
+Main:   V1.12                             Main: V1.12  
 BL:                                       BL:                  
 ===================================================================================================
-- refresh sample rate indication on display if new source with "NO_DATA" selected
-- balance change from APP stored in EEPROM
-- improved synchronization of INV, OUTPUT and FILTER settings with APP
-- option to power up the DAC 200 via source button in the app added
-
 
 ===================================================================================================
 History
 ===================================================================================================
-------------------------
-------------------------
-
-(27-10-22)
-Main:   V1.16
-BL:     
------
-- Unintended switch-off in HDMI CEC mode (with some SONY TVs) fixed
-
-
-------------------------
-------------------------
-
-
-(18-07-22)
-Main:   V1.14
-BL:     
------
-- outputs muted before firmware update (avoids speaker popp after re-start)
-- VU-Meter improvements
-- switching from BNC to AES-EBU input fixed (without HDMI module installed)
-
-
-------------------------
-------------------------
-
-
-(xx-xx-22)
-Main:   V1.13
-BL:     
------
-- not available
-
-
 ------------------------
 ------------------------
 
@@ -163,4 +124,3 @@ Planckstrasse 9-11
 Germany
 
 http://www.ta-hifi.de
-
