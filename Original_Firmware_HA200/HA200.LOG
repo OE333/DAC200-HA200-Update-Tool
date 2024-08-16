@@ -1,0 +1,172 @@
+HA200 MSP430 Softwareversionen:
+=====================================================================================================================
+
+Version |  Date    | (b) fixed bugs / (c) changes / (+) new features
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.00  | 01.04.20 | Release Candidate
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.01  | 01.04.20 | initial version
+        |          | Not qualified for HDMI module, no MP8 control
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.02  | 06.04.20 | Not qualified for HDMI module, no MP8 control
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.03  | 07.04.20 | Not qualified for HDMI module, no MP8 control
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.04  | 08.04.20 | Not qualified for HDMI module, no MP8 control
+        |          | b step response of "NOS2" upsampling corrected
+        |          | b E-Link bus collision corrected
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.05  | 16.04.20 | Not qualified for HDMI module, no MP8 control
+        |          | b DoP 256x48k (high noise floor + distortion) --- "PCM" displayed on display corrected
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.06  | 20.04.20 | Not qualified for HDMI module
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.07  | 27.05.20 | Not qualified for HDMI module
+        |          | b  Short noise spike when DSD512 -> DSD1024 switching
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.08  | 04.06.20 | HDMI support (for testing), CEC Volume control (experimental)
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.10  | 15.06.20 | Full HDMI & CEC support
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.11  | 17.06.20 | Bugfix version
+        |          | b CEC Volume control not working when CEC Mode "ON" is selected.
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 1.12  | 17.07.20 | Bugfix version (already with pre-release of support for Bluetooth HSBT075 & IS31FLxx driver)
+        |          | b Switching DSP Filters sometimes (very seldom) leads to short noise and roon server shut down
+        |          | b HDMI no sound on ARC when switching from HDMI1/2_IN while playing DSD.
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.00  | 30.11.20 | Hardware-Upgrade: Support for new hardware: HSBT075, IS31FL3746A
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.01  | 05.02.21 | Bugfix & code tidy-up version
+        |          | b Meter-LED setting after Meter-Mode change corrected
+        |          | b ARC + Sony KDL-32ex725 TV improved
+        |          | + New menu item CLEAR Bluetooth pairing list (remedy for bug "Bluetooth connection not possible with iOS devices")
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.02  | 08.02.21 | - not in production -
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.03  | 09.02.21 | Bugfix version
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.04  | 18.02.21 | - not in production -
+        |          | + E-Link Test & Diagnosis Routines
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.05  | 23.03.21 | Unified version HA200/DAC200
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.08  | 10.06.21 | Bugfix version
+        |          | b "Device does not switch OFF if operated by remote control" corrected
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.0A  | 11.08.21 | Bugfix version
+        |          | b  fixed: Bootloader not working after first update
+        |          | +  Faster Startup for better interoperability with MP200
+        |          | +  Multi-Languagesupport
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.10  | 28.09.21 | - not in production - Feature-Upgrade: MP200 & A200 Interoperability
+        |          | + Roon interoperability w. MP200
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.11  | 08.11.21 | Bugfix version
+        |          | b  fixed: unintentional volume change when switching between HDMI inputs (only if CEC Volume Control enabled)
+        |          | b  Bluetooth HSBT075 not working
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.20  | 02.12.21 | Feature-Upgrade: HomeAutomation, Extended (0xA8) Commands, Improvements
+        |          | c TX Display & LED brightness to A200 only (not to MP200 any more) 
+        |          | + TX Display Temporary/Always ON Display state to A200
+        |          | + Mute before performing reset to factory defaults
+        |          | + Enable all HDMI inputs when HDMI module is detected
+        |          | + New ELink Commands - TONE, LOUD, FLAT
+        |          | + Reload AUTO-OFF timer on user control event (KB, RC, E-Link, APP)
+        |          | + Add support for extended commands (0xA8 telegrams)  
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.30  | 14.04.22 | Feature-Upgrade: IR Remote Control switchable
+        |          | + Enable/Disable IR Remote Control by user control (in SETUP MENU)
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.31  | 05.07.22 | - not in production -
+        |          |
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.32  | 02.09.22 | All improvements from DAC200 V1.14 (incl. improved/clickless muting)
+        |          |
+        |          | b  outputs muted before firmware update (avoids speaker popp after re-start)
+        |          | c  improved MUTING behaviour (reduced relay clicking) 
+        |          | c  VU-Meter improvements
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.33  | 17.10.22 | b  Unintended switch-off in HDMI CEC mode (with some SONY TVs)
+        |          | +  Support for ELMA rotary encoder
+        |          | +  Update routine for EE_PROM to data model version 2
+        |          | c  Operation time counter shifted from 0x70 to 0xF0 in EE_PROM
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.34  | 29.01.23 | b  refresh SampleRate indication on display if new source with "NO_DATA" selected
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.35  | 24.02.23 | b  Balance change from APP stored in EEPROM
+        |          | b  improved synchronization of INV, OUTPUT and FILTER settings with APP
+        |          | +  Power-ON from APP with DAC_200 SOURCE-button
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.40  | 01.07.24 | New Feature Release
+        |          | b  state of RC enable/disable now always correctly stored in EEPROM 
+        |          | b  LED state now correctly restored after service function "LED-Test"
+        |          | b  distorted sound with DSD stream on HDMI input and AURALIC streamer conencted to USB 
+        |          | b  HDMI inputs -- sometimes no sound after DSD<->PCM switching 
+        |          | b  sporadic RS232 telegrams appear on E2 link
+        |          | b  unintended RS232 status telegrams in Standby mode (eg. when sending VOL_xx in Standby)
+        |          | i  improved & faster MUTING when switching to 32kHz stream
+        |          | +  ScreenSaver (turn down display brightness to reduce OLED wear)
+        |          | +  editable source names
+        |          | +  save settings for OVS, INV, FILTER separately for each input
+        |          | +  additional item in setup-menu to eable/disable separate OVS/INV/FIL settings 
+        |          | +  big display of VOLUME level when changing volume by remote control
+        |          | +  output muted when switching output mode from varable to fixed to prevent high SPL on speakers
+________|__________|_________________________________________________________________________________________________
+        |          |
+V 2.41  | 13.08.24 | b 	Hardware V1: LEDs and VU-illuminations in some cases not working
+	|	   | b	Hardware V1: OLED display sometimes not working if Power-On directly (~2sec) after Power-OFF
+        |          | b  Source select not working correctly when Volume operated at the same time
+________|__________|_________________________________________________________________________________________________
+        |          |
